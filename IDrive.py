@@ -10,7 +10,7 @@ class IDrive:
                 url = 'https://evs.idrive.com/evs/getServerAddress'
                 print url
                 self.uid = uid
-                self.pwd = uid
+                self.pwd = pwd
 
                 params = urllib.urlencode({
                         'uid': uid,
